@@ -1,0 +1,431 @@
+/***** Start Common css *****/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero-font {
+    font-family: var(--hero-font);
+}
+
+.slide-head-font {
+    font-family: 'Cardo', serif;
+}
+
+.foot-credit-color {
+    color: #808080;
+}
+
+.bottom-foot-bg {
+    background-color: var(--bottom-foot-bg);
+}
+
+.top-foot-bg {
+    background-color: var(--top-foot-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary);
+    margin: 0;
+    padding: 0;
+}
+.w-30{
+    width: 30%;
+}
+/***** root css *****/
+
+:root {
+    --primary: #2d3033;
+    --second: #e84545;
+    --third: #6c7279;
+    --social: #c6cacc;
+    --bottom-foot-bg: #313454;
+    --top-foot-bg: #3a3e64;
+    --hero-font: 'Open Sans', sans-serif;
+    --slider-font: 'Cardo', serif;
+
+}
+
+/***** End root css *****/
+
+/***** End Common css *****/
+/* -----------------------------------------------------------------------------  
+*/
+
+/***** Header secttion *****/
+
+
+.navbar-toggler {
+    color: rgb(255 255 255);
+    border: 2px solid;
+}
+
+.navbar-toggler-icon {
+    filter: invert(2.2);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    border: 2px solid var(--second);
+}
+
+
+.nav-link {
+    font-weight: 700;
+    color: #fff;
+    transition: .5s;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--second);
+}
+
+.nav-item {
+    margin-left: 40px;
+}
+
+/* Hero part */
+.hero_part {
+    background: url(../img/hero_bg.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 750px;
+}
+
+.hero_con_main {
+    margin-top: 60px;
+}
+
+.hero_con_main h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.hero_con_main p {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.hero_btn button {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    border: 1px solid var(--second);
+    padding: 12px 50px;
+    border-radius: 0px;
+    font-weight: 600;
+    background-color: transparent;
+    transition: .5s;
+}
+
+.hero_btn button:hover {
+    background-color: var(--second);
+    border: 1px solid var(--second);
+    color: #fff;
+}
+
+/***** End Header secttion *****/
+
+/***** features section *****/
+
+.features {
+    padding: 70px 0px;
+}
+
+.features_con {
+    margin: 10px 0px;
+}
+
+.features_img img {
+    transition: .5s;
+}
+
+.features_img img:hover {
+    transform: rotate(20deg);
+}
+
+.features_desc h3 {
+    font-size: 14px;
+    color: var(--primary);
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.features_desc h3:hover {
+    color: var(--second);
+}
+
+.features_desc p {
+    font-size: 14px;
+    color: var(--third);
+    padding: 10px 0px;
+}
+
+
+/***** End features section *****/
+
+/***** work section *****/
+#work {
+    padding: 60px 0px;
+}
+
+.work-col {
+    padding: 0.4px;
+}
+
+.work_img {
+    position: relative;
+}
+
+.work_img img {
+    height: 240px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.work_overlay {
+    background-color: var(--second);
+    opacity: 85%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.work_overlay h3 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.work_overlay p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.work_overlay_wrapper {
+    opacity: 0;
+    transition: .5s;
+}
+
+.work_con_main:hover .work_overlay_wrapper {
+    opacity: 1;
+}
+
+/***** End work section *****/
+
+/***** team part *****/
+.team_part {
+    padding: 50px 0px;
+}
+
+.team_con_img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.team_con_img img {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.team_con_img:hover img {
+    transform: scale(1.1);
+}
+
+.desc h3 {
+    font-size: 22px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.desc p:nth-child(2) {
+    color: var(--second);
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.desc p:nth-child(3) {
+    color: var(--third);
+    font-size: 14px;
+    padding: 15px 0px;
+}
+
+ul.team_icon_list li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--social);
+    color: var(--social);
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+ul.team_icon_list li i {
+
+    transition: .5s;
+}
+
+ul.team_icon_list li:hover {
+    background-color: var(--second);
+    border: 1px solid var(--second);
+}
+
+ul.team_icon_list li:hover i {
+    color: #fff;
+}
+
+
+
+/***** End team part *****/
+
+/***** Clients *****/
+.clients_container {
+    background: #53354a;
+}
+
+.clients_container img {
+    height: 394px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.clients_sec {
+    padding: 50px 0px;
+    position: relative;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 15%;
+    right: 41%;}
+    
+.clients_desc {
+
+    color: #fff;
+    padding-left: 15px;
+    width: 85%;
+}
+
+
+.clients_desc p:nth-child(1) {
+    font-size: 30px;
+    padding: 10px 0;
+
+}
+
+.clients_desc p:nth-child(2) {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.client_right {
+
+    margin: auto;
+}
+
+/***** End Clients *****/
+
+
+/***** download section *****/
+
+.download_con_main h3{
+font-size: 28px;
+font-weight: 300;
+}
+
+.download_con_main p{
+font-size: 13px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.dload_btn button{
+    color: var(--primary);
+  
+}
+
+
+/***** End download section *****/
+
+/***** Top Footer section *****/
+.top_footer{
+    padding: 50px 0px;
+}
+.top_foot_con_main h3{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.top_foot_con_main p{
+    font-size: 14px;
+    color: var(--social);
+}
+
+.foot_social li {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #fff;
+    transition: .5s;
+  }
+  .foot_social li i {
+    color: #fff;
+  }
+  .foot_social li:hover{
+    background-color: var(--second);
+    border: 2px solid var(--second);
+  }
+
+/***** End Top Footer section *****/
+
+/***** Bottom Foot *****/
+
+/***** End Bottom Foot *****/

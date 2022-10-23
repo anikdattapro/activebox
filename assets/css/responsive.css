@@ -1,0 +1,453 @@
+/* Extra Extra large Device*/
+@media (min-width:1400px) {
+    .owl-dots {
+        position: absolute;
+        bottom: 10%;
+        right: 35%;
+        transform: translate(-40%, -15%);
+    }
+}
+
+
+/* Extra Large Device*/
+@media (min-width:1200px) and (max-width:1399.98px) {
+    .owl-dots {
+        position: absolute;
+        bottom: 15%;
+        right: 38%;
+    }
+}
+
+
+/* Large Device*/
+@media (min-width:992px) and (max-width:1199.98px) {
+    .owl-dots {
+        position: absolute;
+        bottom: 9%;
+        right: 36%;
+    }
+}
+    /* Mediam Device*/
+    @media (min-width:768px) and (max-width:991.98px) {
+
+        #navbarNav {
+            border-top: 1px solid white;
+            margin-top: 30px;
+            position: absolute;
+            top: 39px;
+            left: 0;
+            width: 100%;
+        }
+
+        .navbar-nav {
+            margin-top: 10px;
+            background: var(--top-foot-bg);
+        }
+
+        .nav-item {
+            border-bottom: 2px solid var(--bottom-foot-bg);
+            width: 100%;
+            margin-left: 20px;
+        }
+
+        .w-30 {
+            width: 100%;
+        }
+
+        .w-75 {
+            width: 100% !important;
+        }
+
+        .owl-dots {
+            position: absolute;
+            bottom: 5%;
+            right: 30%;
+        }
+    }
+
+    /* Small Device*/
+    @media (min-width:576px) and (max-width:767.98px) {
+        #navbarNav {
+            border-top: 1px solid white;
+            margin-top: 30px;
+            position: absolute;
+            top: 39px;
+            left: 0;
+            width: 100%;
+        }
+
+        .navbar-nav {
+            margin-top: 10px;
+            background: var(--top-foot-bg);
+        }
+
+        .nav-item {
+            border-bottom: 2px solid var(--bottom-foot-bg);
+            width: 100%;
+            margin-left: 20px;
+        }
+
+        .hero_con_main h1 {
+            font-size: 35px;
+        }
+
+
+        .hero_con_main p {
+            font-size: 16px;
+        }
+
+        .clients_container {
+            position: relative;
+        }
+
+        .hero_part {
+            min-height: 650px;
+        }
+
+        .clients_desc_con {
+            position: absolute;
+            top: 40%;
+            left: 20%;
+            transform: translate(-10%, -40%);
+
+
+        }
+
+        .slider_image {
+            position: relative;
+        }
+
+        .overlay_clients {
+            width: 100%;
+            height: 100%;
+            background: black;
+            opacity: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .w-30 {
+            width: 100%;
+        }
+
+        .w-75 {
+            width: 100% !important;
+        }
+
+    }
+
+    /* Extra Small Device*/
+    @media (min-width:300px) and (max-width:575.98px) {
+        #navbarNav {
+            border-top: 1px solid white;
+            margin-top: 30px;
+            position: absolute;
+            top: 39px;
+            left: 0;
+            width: 100%;
+        }
+
+        .navbar-toggler-icon {
+            font-size: 12px;
+        }
+
+        .logo img {
+            width: 140px;
+        }
+
+        .navbar-nav {
+            margin-top: 10px;
+            background: var(--top-foot-bg);
+        }
+
+        .nav-item {
+            border-bottom: 2px solid var(--bottom-foot-bg);
+            width: 100%;
+            margin-left: 20px;
+        }
+
+        .hero_con_main h1 {
+            font-size: 25px;
+        }
+
+        .hero_part {
+            min-height: 600px;
+        }
+
+        .hero_con_main p {
+            font-size: 14px;
+        }
+
+        .features_desc p {
+
+            text-align: justify;
+        }
+
+        .xs-device {
+            width: 90%;
+            margin: auto;
+        }
+
+        .desc h3 {
+            font-size: 18px;
+
+        }
+
+        .my-5 {
+            margin-top: 5px !important;
+            margin-bottom: 5px !important;
+        }
+
+        .desc p:nth-child(2) {
+            font-size: 12px;
+        }
+
+        .desc p:nth-child(3) {
+            font-size: 13px;
+            text-align: justify;
+        }
+
+        .team_icon_list {
+            justify-content: center !important;
+        }
+
+        ul.team_icon_list li {
+            width: 30px;
+            height: 30px;
+        }
+
+        ul.team_icon_list li i {
+            font-size: 12px;
+        }
+
+        .row>.xs-device:nth-child(2) {
+            margin-top: 1.5rem;
+        }
+
+        .clients_container {
+            position: relative;
+        }
+
+        .clients_desc_con {
+            position: absolute;
+            top: 40%;
+            left: 20%;
+            transform: translate(-10%, -40%);
+        }
+
+
+        .slider_image {
+            position: relative;
+        }
+
+        .overlay_clients {
+            width: 100%;
+            height: 100%;
+            background: black;
+            opacity: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .top_foot_con {
+            padding: 20px 0px;
+        }
+
+        .w-30 {
+            width: 80%;
+        }
+
+        .w-75 {
+            width: 90% !important;
+        }
+
+
+        .work-col {
+            padding: 5px;
+            width: 90%;
+            margin: auto;
+        }
+
+        .clients_desc p:nth-child(1) {
+            font-size: 25px;
+        }
+
+        .clients_desc p:nth-child(2) {
+            font-size: 10px;
+        }
+
+        .clients_container img {
+            object-position: right;
+        }
+
+        .owl-dots {
+            position: absolute;
+            bottom: 2%;
+            right: 33%;
+            transform: translate(-30%, -41%);
+        }
+    }
+
+    /*Extra extra small*/
+    @media (max-width: 299.98px) {
+
+        #navbarNav {
+            border-top: 1px solid white;
+            margin-top: 30px;
+            position: absolute;
+            top: 39px;
+            left: 0;
+            width: 100%;
+
+        }
+
+        .navbar-toggler {
+            width: 100%;
+            margin: auto;
+        }
+
+
+        .navbar-toggler-icon {
+            font-size: 14px;
+        }
+
+        .navbar-nav {
+            margin-top: 10px;
+            background: var(--top-foot-bg);
+        }
+
+        .nav-item {
+            border-bottom: 2px solid var(--bottom-foot-bg);
+            width: 100%;
+            margin-left: 20px;
+        }
+
+        .hero_con_main h1 {
+            font-size: 20px;
+        }
+
+
+        .hero_con_main p {
+            font-size: 10px;
+        }
+
+        .hero_part {
+            min-height: 600px;
+        }
+
+        .my-5 {
+            margin-top: 5px !important;
+            margin-bottom: 5px !important;
+        }
+
+        .features_desc p {
+
+            text-align: justify;
+        }
+
+        .xs-device {
+            width: 90%;
+            margin: auto;
+        }
+
+        .desc h3 {
+            font-size: 18px;
+
+        }
+
+        .desc p:nth-child(2) {
+            font-size: 12px;
+        }
+
+        .desc p:nth-child(3) {
+            font-size: 13px;
+            text-align: justify;
+        }
+
+        .team_icon_list {
+            justify-content: center !important;
+        }
+
+        ul.team_icon_list li {
+            width: 30px;
+            height: 30px;
+        }
+
+        ul.team_icon_list li i {
+            font-size: 12px;
+        }
+
+        .xxs {
+            flex: 0 0 auto;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        .top_foot_con_main p {
+            text-align: justify;
+        }
+
+        .w-30 {
+            width: 90%;
+        }
+
+        .w-75 {
+            width: 90% !important;
+            text-align: justify;
+        }
+
+        .bottom_foot_con_main {
+            font-size: 14px;
+        }
+
+        .work-col {
+            padding: 5px;
+            width: 90%;
+            margin: auto;
+        }
+
+        .clients_desc p:nth-child(1) {
+            font-size: 20px;
+        }
+
+        .clients_desc p:nth-child(2) {
+            font-size: 10px;
+        }
+
+        .overlay_clients {
+            width: 100%;
+            height: 100%;
+            background: black;
+            opacity: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .slider_image {
+            position: relative;
+        }
+
+        .clients_container {
+            position: relative;
+        }
+
+        .clients_desc_con {
+            position: absolute;
+            top: 40%;
+            left: 20%;
+            transform: translate(-10%, -40%);
+        }
+
+        .clients_container img {
+            object-position: right;
+        }
+        .owl-dots {
+            position: absolute;
+            bottom: 5%;
+            right: 33%;
+           
+        }
+    }
